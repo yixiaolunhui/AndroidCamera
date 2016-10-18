@@ -4,7 +4,7 @@
 ## 扫描测试
 http://fir.im/uasy?release_id=5805e0c6ca87a8073c00025e
 
-![image](https://github.com/dalong982242260/AndroidCamera/blob/master/img/camera3.png?raw=true）
+![image](https://github.com/dalong982242260/AndroidCamera/blob/master/img/camera3.png?raw=true)
 
 
 ##效果
