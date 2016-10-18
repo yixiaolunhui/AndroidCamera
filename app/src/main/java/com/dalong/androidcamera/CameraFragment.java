@@ -150,7 +150,7 @@ public class CameraFragment extends Fragment implements View.OnClickListener , A
                 CameraFragment.ConfirmationDialogFragment
                         .newInstance(R.string.sd_permission_not_granted,
                                 new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE},
-                                REQUEST_CAMERA_PERMISSION,
+                                REQUEST_SD_PERMISSION,
                                 R.string.sd_permission_not_granted)
                         .show(getActivity().getSupportFragmentManager(), FRAGMENT_DIALOG);
             }
@@ -283,6 +283,9 @@ public class CameraFragment extends Fragment implements View.OnClickListener , A
                 }
                 // No need to start camera here; it is handled by onResume
                 break;
+            case REQUEST_SD_PERMISSION:
+
+                break;
         }
     }
 
@@ -349,7 +352,7 @@ public class CameraFragment extends Fragment implements View.OnClickListener , A
                                     }
                                     ActivityCompat.requestPermissions(getActivity(),
                                             permissions, args.getInt(ARG_REQUEST_CODE));
-                                    startActivity(getAppDetailSettingIntent(getActivity()));
+//                                    startActivity(getAppDetailSettingIntent(getActivity()));
                                 }
                             })
                     .setNegativeButton(android.R.string.cancel,
