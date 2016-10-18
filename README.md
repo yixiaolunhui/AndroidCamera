@@ -10,3 +10,5 @@
 ###横屏
 ![image](https://github.com/dalong982242260/AndroidCamera/blob/master/img/camera2.png?raw=true)
 
+##感谢
+https://github.com/google/cameraview
