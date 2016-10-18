@@ -4,9 +4,9 @@
 ##效果
 
 ###竖屏
-![image](https://github.com/dalong982242260/AndroidCamera/blob/master/img/camera.jpg?raw=true)
+![image](https://github.com/dalong982242260/AndroidCamera/blob/master/img/camera.png?raw=true)
 
 
 ###横屏
-![image](https://github.com/dalong982242260/AndroidCamera/blob/master/img/camera2.jpg?raw=true)
+![image](https://github.com/dalong982242260/AndroidCamera/blob/master/img/camera2.png?raw=true)
 
