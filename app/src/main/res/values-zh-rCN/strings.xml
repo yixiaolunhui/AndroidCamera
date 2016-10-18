@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidCamera</string>
+
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="camera_permission_confirmation">这个应用需要拍照,如需使用,它需要访问相机的权限。</string>
+    <string name="camera_permission_not_granted">相机应用程序没有相机许可不能做任何事情。</string>
+    <string name="sd_permission_not_granted">应用程序没有sd许可不能做任何事情。</string>
+
+</resources>
