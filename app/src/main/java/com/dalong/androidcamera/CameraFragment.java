@@ -7,16 +7,12 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.HandlerThread;
-import android.provider.MediaStore;
-import android.provider.Settings;
-import android.support.annotation.ColorInt;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
@@ -47,7 +43,8 @@ import static android.app.Activity.RESULT_CANCELED;
  * camera 拍照fragment
  * Created by zhouweilong on 16/10/18.
  */
-public class CameraFragment extends Fragment implements View.OnClickListener , ActivityCompat.OnRequestPermissionsResultCallback{
+public class CameraFragment extends Fragment implements View.OnClickListener ,
+        ActivityCompat.OnRequestPermissionsResultCallback{
 
     public final static String TAG="CameraFragment";
 

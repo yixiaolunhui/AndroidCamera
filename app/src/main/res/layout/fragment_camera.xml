@@ -9,8 +9,12 @@
         android:id="@+id/camera"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:keepScreenOn="true"
+        android:adjustViewBounds="true"
+        android:layout_centerInParent="true"
         app:autoFocus="true"
-        android:adjustViewBounds="true"/>
+        app:facing="back"
+        app:flash="auto"/>
 
     <include
         layout="@layout/camera_control"

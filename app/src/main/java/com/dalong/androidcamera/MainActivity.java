@@ -7,8 +7,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
 
-import java.io.File;
-
 public class MainActivity extends AppCompatActivity {
 
     public  static final  int  RESUEST_CODE=100;
